@@ -4,52 +4,88 @@ index.html
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hollow Knight Discount</title>
+  <title>Hollow Knight Game Discount</title>
   <style>
     body {
-      background-color: #0f0f0f;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #0f0f0f;
+      color: #fff;
+      text-align: center;
     }
+
     header {
-      background: #1c1c1c;
+      background-color: #1c1c1c;
       padding: 20px;
     }
-    h1 {
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
       color: #00ccff;
     }
-    img {
-      max-width: 300px;
-      margin: 20px auto;
-      border-radius: 8px;
+
+    .container {
+      padding: 40px 20px;
     }
+
+    .game-image {
+      max-width: 300px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
     .discount {
-      font-size: 2rem;
+      font-size: 2em;
       color: #00ff99;
     }
-    a.cta-button {
+
+    .cta-button {
       display: inline-block;
       margin-top: 20px;
-      padding: 10px 20px;
+      padding: 15px 30px;
       background-color: #00ccff;
-      color: black;
+      color: #000;
       text-decoration: none;
+      font-size: 1.2em;
       border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #00aacc;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #1c1c1c;
+      color: #888;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Hollow Knight - 60% Off!</h1>
+    <h1>Hollow Knight - Huge Discount!</h1>
   </header>
-  <main>
-    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg" alt="Hollow Knight Cover">
-    <p class="discount">Only $5.99 on Steam</p>
-    <a class="cta-button" href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">Buy Now</a>
-  </main>
+
+  <div class="container">
+    <img class="game-image" src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg" alt="Hollow Knight Game Cover" />
+    
+    <p class="discount">Now 60% Off on Steam!</p>
+    
+    <a class="cta-button" href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">
+      Get It Now
+    </a>
+  </div>
+
+  <footer>
+    Not affiliated with Team Cherry. Prices may vary by region.
+  </footer>
+
 </body>
 </html>
 
