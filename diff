@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hollow Knight Discount</title>
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1c1c1c;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ccff;
+    }
+    img {
+      max-width: 100%;
+      width: 300px;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+    .discount {
+      font-size: 2rem;
+      color: #00ff99;
+    }
+    a.cta-button, a.youtube-button {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 10px 20px;
+      background-color: #00ccff;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    a.youtube-button {
+      background-color: #ff0000;
+      color: white;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #1c1c1c;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hollow Knight - 60% Off!</h1>
+  </header>
+  <main>
+    <!-- Hollow Knight Game Image -->
+    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg" alt="Hollow Knight Cover">
+    
+    <!-- Discount Text -->
+    <p class="discount">Only $5.99 on Steam</p>
+    
+    <!-- Buy Now Button -->
+    <a class="cta-button" href="https://store.steampowered.com/app/367520/Hollow_Knight/" target="_blank">Buy Now</a>
+    
+    <!-- YouTube Channel Button -->
+    <a class="youtube-button" href="https://www.youtube.com/@YourChannelName" target="_blank">
+      Visit My YouTube Channel
+    </a>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    Not affiliated with Team Cherry. Prices may vary by region.
+  </footer>
+</body>
+</html>
